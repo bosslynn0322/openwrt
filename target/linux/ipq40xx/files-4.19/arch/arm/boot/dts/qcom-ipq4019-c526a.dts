@@ -254,7 +254,45 @@
 
 &pcie0 {
 	status = "okay";
-	perst-gpios = <&tlmm 38 GPIO_ACTIVE_LOW>;
+	perst-gpios = <&tlmm 0 GPIO_ACTIVE_LOW>,
+			<&tlmm 1 GPIO_ACTIVE_LOW>,
+			<&tlmm 2 GPIO_ACTIVE_LOW>,
+			<&tlmm 3 GPIO_ACTIVE_LOW>,
+			<&tlmm 4 GPIO_ACTIVE_LOW>,
+			<&tlmm 5 GPIO_ACTIVE_LOW>,
+			<&tlmm 10 GPIO_ACTIVE_LOW>,
+			<&tlmm 11 GPIO_ACTIVE_LOW>,
+			<&tlmm 18 GPIO_ACTIVE_LOW>,
+			<&tlmm 20 GPIO_ACTIVE_LOW>,
+			<&tlmm 21 GPIO_ACTIVE_LOW>,
+			<&tlmm 22 GPIO_ACTIVE_LOW>,
+			<&tlmm 23 GPIO_ACTIVE_LOW>,
+			<&tlmm 24 GPIO_ACTIVE_LOW>,
+			<&tlmm 25 GPIO_ACTIVE_LOW>,
+			<&tlmm 26 GPIO_ACTIVE_LOW>,
+			<&tlmm 27 GPIO_ACTIVE_LOW>,
+			<&tlmm 28 GPIO_ACTIVE_LOW>,
+			<&tlmm 29 GPIO_ACTIVE_LOW>,
+			<&tlmm 30 GPIO_ACTIVE_LOW>,
+			<&tlmm 31 GPIO_ACTIVE_LOW>,
+			<&tlmm 32 GPIO_ACTIVE_LOW>,
+			<&tlmm 33 GPIO_ACTIVE_LOW>,
+			<&tlmm 34 GPIO_ACTIVE_LOW>,
+			<&tlmm 35 GPIO_ACTIVE_LOW>,
+			<&tlmm 36 GPIO_ACTIVE_LOW>,
+			<&tlmm 37 GPIO_ACTIVE_LOW>,
+			<&tlmm 38 GPIO_ACTIVE_LOW>,
+			<&tlmm 39 GPIO_ACTIVE_LOW>,
+			<&tlmm 40 GPIO_ACTIVE_LOW>,
+			<&tlmm 41 GPIO_ACTIVE_LOW>,
+			<&tlmm 42 GPIO_ACTIVE_LOW>,
+			<&tlmm 43 GPIO_ACTIVE_LOW>,
+			<&tlmm 44 GPIO_ACTIVE_LOW>,
+			<&tlmm 45 GPIO_ACTIVE_LOW>,
+			<&tlmm 46 GPIO_ACTIVE_LOW>,
+			<&tlmm 47 GPIO_ACTIVE_LOW>,
+			<&tlmm 48 GPIO_ACTIVE_LOW>,
+			<&tlmm 49 GPIO_ACTIVE_LOW>;
 	wake-gpios = <&tlmm 50 GPIO_ACTIVE_LOW>;
 
 	bridge@0,0 {
